@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+/*heder-nav----------------------------------*/
+.heder-nav {
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    background-color: black;
+    z-index: 10;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.heder-nav-menu {
+    display: inline;
+    list-style-type: none;
+    margin-left: 625px;
+}
+
+.nav-feautures, .nav-about, .nav-pricing, .nav-reviews, .nav-contact {
+    margin-right: 48px;
+    font-size: 15px;
+    color: white;
+    opacity: 70%;
+}
+
+.nav-contact {
+    margin-right: 0px;
+}
+
+/*heder-intro--------------------------------*/
+.header-main {
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../img/city-header.png) no-repeat;
+}
+
+.header-intro {
+    display: inline-block;
+}
+
+.header-text {
+    width: 544px;
+    height: 99px;
+    margin-top: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.header-line {
+    width: 64px;
+    border: 1px solid #FFFFFF;
+    background-color: white;
+    margin-bottom: 39px;
+}
+
+.header-subtext {
+    width: 282px;
+    height: 38px;
+    margin-bottom: 39px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    opacity: 80%;
+}
+
+.header-button {
+    width: 135px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+}
+
+/*header-form------------------------------------*/
+.form {
+    display: inline-block;
+    margin-top: 111px;
+    margin-left: 265px;
+    width: 370px;
+    height: 370px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.header-form-title {
+    width: 370px;
+    height: 56px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.colortext {
+    text-transform: uppercase;
+    color: #EC7979;
+}
+
+.header-form-text {
+    margin-left: 59px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.text--name {
+    margin-top: 44px; margin-bottom: 16px;
+}
+
+.text--email, .text--password {
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.header-form-line {
+    margin-left: 59px;
+    width: 252px;
+    border: 1px solid #BDBDBD;
+    background-color: #BDBDBD;
+}
+
+.header-form-button {
+    width: 370px;
+    height: 54px;
+    margin-top: 63px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #EC7979;
+    border-radius: 0px 0px 8px 8px;
+    border: 0px;
+}
+
+/*Section-social------------------------------*/
+
+.section-social {
+    height: 110px;
+    background-color: #F8EFEF;
+}
+
+.section-social-intro {
+    display: inline-block;
+    width: 365px;
+    height: 79px;
+}
+
+.section-social-title {
+    margin: 14px 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.section-social-text {
+    width: 365px;
+    height: 38px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.section-social-icon {
+    display: inline-block;
+    margin: 32px 0 0 129px;
+    vertical-align: top;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 90px;
+    height: 42px;
+    background: url(../img/social__icons-selection.png) no-repeat;
+}
+
+.facebook-social {
+    background-position: left top;
+}
+
+.twitter-social {
+    background-position: -90px top;
+}
+
+.gmail-social {
+    background-position: -185px top;
+}
+
+.pinterest-social {
+    background-position: -280px top;
+}
+
+.instagram-social {
+    background-position: -390px top;
+}
+
+.stumbleupon-social {
+    background-position: -490px top;
+}
+
+.rss-social {
+    background-position: right top;
+}
+
+/*Section-featurest---------------------------*/
+.section-featurest {
+    height: 600px;
+}
+
+.section-featurest-left {
+    display: inline-block;
+    text-align: center;
+    margin-top: 125px;
+    vertical-align: top;
+}
+
+.section-featurest-centre {
+    display: inline-block;
+    margin-top: 125px;
+    margin-right: 50px;
+    margin-left: 118px;
+}
+
+.section-featurest-right {
+    display: inline-block;
+    width: 320px;
+    height: 253px;
+    margin-top: 100px;
+    background: url(../img/city-main.png) no-repeat;
+    vertical-align: top;
+}
+
+.section-featurest-left-tab {
+    width: 112px;
+    height: 110px;
+    background: #333333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 110px;
+}
+
+.square--top {
+    background: #EC7979;
+}
+
+.section-featurest-title {
+    margin-bottom: 58px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.section-featurest-text {
+    width: 572px;
+    height: 133px;
+    margin-bottom: 89px;
+    color: #86878B;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.section-featurest-button {
+    width: 135px;
+    height: 42px;
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+/*Section-main-process---------------------------*/
+
+.section-main-process {
+    height: 600px;
+}
+
+.section-header-title {
+    padding-top: 80px;
+    margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #212121;
+    text-align: center;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background-color: #E72424;
+    border: 1px;
+    margin-bottom: 34px;
+}
+
+.section-header-text {
+    margin-bottom: 62px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    text-align: center;
+}
+
+.section-main {
+    text-align: center;
+}
+
+.cart {
+    display: inline-block;
+    width: 350px;
+    height: 225px;
+    text-align: center;
+}
+
+.cart--centre {
+    margin: auto 32px auto;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+}
+
+.icon--lamp{
+    background: url(../img/lamp.png) no-repeat center;
+}
+
+.icon--keyboard{
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.icon--lightning{
+    background: url(../img/lightning.png) no-repeat center;
+}
+
+.cart-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.cart-text {
+    margin: 0 auto 116px;
+    font-size: 14px;
+    color: #000000;
+}
+
+/*Section-main-price---------------------------*/
+.section-main-price {
+    height: 800px;
+    background: #F5F5F5;
+}
+
+.main-table {
+    display: inline-block;
+    width: 340px;
+    height: 440px;
+}
+
+.info--title {
+    height: 50px;
+    margin-bottom: 1px;
+    background: #333333;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.info--price {
+    height: 100px;
+    margin-bottom: 2px;
+    background: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 100px;
+}
+
+.info--white {
+    height: 40px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    background: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+}
+
+.info--black {
+    height: 50px;
+    margin-bottom: 4px;
+    background: #333333;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    line-height: 50px;
+}
+
+.table--center {
+    position: relative;
+    margin-left: 88px;
+    margin-right: 87px;
+    bottom: 15px;
+}
+
+/*Section-main-reviews---------------------------*/
+.reviews {
+    height: 600px;
+    text-align: center;
+}
+
+.section-reviews {
+    display: inline-block;
+    width: 298px;
+    height: 110px;
+    background: #E2E2E2;
+    border-radius: 7px;
+    margin-bottom: 22px;
+}
+
+.reviews-text {
+    margin: 14px 14px 16px;
+    font-size: 14px;
+    color: #86878B;
+    line-height: 19px;
+}
+
+.reviews--centre {
+    margin-left: 112px; margin-right: 98px;
+}
+
+.section-avatar {
+    display: inline-block;
+    width: 298px;
+    height: 70px;
+}
+
+.section-avatar--centre {
+    margin-left: 112px; margin-right: 98px;
+}
+
+.reviews-name {
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.reviews-work {
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.avatar {
+    float: left;
+    margin-left: 50px;
+}
+
+/*section-city---------------------------*/
+.city {
+    height: 326px;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(../img/city-section.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.section--title {
+    color: #FFFFFF;
+}
+
+.section--line {
+    background-color: #FFFFFF;
+}
+
+.section--text {
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
+.button-city {
+    width: 135px;
+    height: 42px;
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: white;
+}
+
+/*Section-contact---------------------------*/
+.contact {
+    height: 700px;
+    text-align: center;
+}
+
+.text--contact {
+    margin-bottom: 91px;
+}
+
+.form-contact {
+    display: inline-block;
+    text-align: left; 
+}
+
+.name-form {
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.input-form {
+    height: 32px;
+    width: 478px;
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 31px;
+}
+
+.button-message {
+    display: inline-block;
+    width: 166px;
+    height: 42px;
+    margin-bottom: 44px;
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.form--right {
+    position: relative;
+    bottom: 85px;
+    margin-left: 222px;
+}
+
+.input--message {
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+/*footer-social---------------------------*/
+
+.footer {
+    height: 101px;
+    background: black;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.footer-social {
+    display: inline-block;
+    margin-top: 30px; margin-bottom: 18px;
+    background: url(../img/social-icons.png) no-repeat;
+}
+
+.facebook {
+    background-position: left;
+    width: 43px;
+    height: 23px;
+}
+
+.twitter {
+    background-position: -43px;
+    width: 47px;
+    height: 23px;
+}
+
+.gmail {
+    background-position: -90px;
+    width: 45px;
+    height: 23px;
+}
+
+.pinterest {
+    background-position: -140px;
+    width: 45px;
+    height: 23px;
+}
+
+.instagram {
+    background-position: -190px;
+    width: 45px;
+    height: 23px;
+}
+
+.stumbleupon {
+    background-position: -235px;
+    width: 45px;
+    height: 23px;
+}
+
+.rss {
+    background-position: right;
+    width: 45px;
+    height: 23px;
+}
+
+.footer-text {
+    margin: 0 auto 15px;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: .5;
+}
